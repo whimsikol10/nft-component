@@ -1,0 +1,132 @@
+* {
+    font-family: 'Outfit', san-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container {
+    max-width: 350px;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 3%;
+    padding: 20px;
+    width: 100%;
+}
+
+.card-photo img {
+    width: 100%;
+    border-radius: 3%;
+}
+
+.heading {
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.cyan {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.inner-container-2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 0 15px 0;
+}
+
+.inner-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px 0 0;
+}
+
+.inner-container-3 {
+    border-top: 1px solid hsl(215, 51%, 70%);
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.inner-wrap-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile img {
+    width: 2.2rem;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 15px 0 0;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.heading:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.card-photo img:hover {
+    cursor: pointer;
+}
+
+/*FIGURE OUT HOW TO OVERLAY COLOR FILTER AND EYE IMAGE*/
+
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600
+*/
