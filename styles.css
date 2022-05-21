@@ -24,9 +24,52 @@ body {
     width: 100%;
 }
 
+.card-photo {
+    position: relative;
+    width: 350px;
+    height: auto;
+}
+
 .card-photo img {
-    width: 100%;
+    width: 350px;
+    height: 350px;
     border-radius: 3%;
+}
+
+.overlay {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    background-color: hsl(178, 100%, 50%);
+}
+
+.overlay-eye {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+
+.card-photo:hover .overlay {
+    opacity: .6;
+    cursor: pointer;
+}
+
+.card-photo:hover .overlay-eye {
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card-photo:hover .overlay-eye>img {
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
 }
 
 .heading {
@@ -93,40 +136,9 @@ body {
     cursor: pointer;
 }
 
-/*FIGURE OUT HOW TO OVERLAY COLOR FILTER AND EYE IMAGE*/
+/*FIGURE OUT HOW TO OVERLAY COLOR FILTER AND EYE IMAGE
 
-/*
-# Front-end Style Guide
+https://www.geeksforgeeks.org/how-to-create-image-overlay-hover-using-html-css/
 
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-- Soft blue: hsl(215, 51%, 70%)
-- Cyan: hsl(178, 100%, 50%)
-
-### Neutral
-
-- Very dark blue (main BG): hsl(217, 54%, 11%)
-- Very dark blue (card BG): hsl(216, 50%, 16%)
-- Very dark blue (line): hsl(215, 32%, 27%)
-- White: hsl(0, 0%, 100%)
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 18px
-
-### Font
-
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
-- Weights: 300, 400, 600
+helpful!!!
 */
